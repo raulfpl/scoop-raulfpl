@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "homepage": "https://www.mumble.com/",
     "description": "Mumble is an open source voice communication application that features a customizable in game overlay, application skins, conversation recording, and advanced voice activity detection.",
@@ -19,3 +20,26 @@
         "url": "http://download.mumble.com/en/mumble-$version.zip"
     }
 }
+=======
+{
+    "homepage": "https://www.mumble.com/",
+    "description": "Mumble is an open source voice communication application that features a customizable in game overlay, application skins, conversation recording, and advanced voice activity detection.",
+    "version": "1.3.0-rc1",
+    "url": "https://github.com/mumble-voip/mumble/releases/download/1.3.0-rc1/mumble-1.3.0-rc1.winx64.msi",
+    "hash": "3826427acea364568c621b0395a3c5abbe670b9ca315b8f16f231aeaf06fcc68",
+    "extract_dir": "Mumble",
+    "shortcuts": [
+        [
+            "mumble.exe",
+            "Mumble"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/mumble-voip/mumble/releases",
+        "regex": "\"/mumble-voip/mumble/tree/([\\w\\.-]+)\""
+    },
+    "autoupdate": {
+        "url": "https://github.com/mumble-voip/mumble/releases/download/$version/mumble-$version.winx64.msi"
+    }
+}
+>>>>>>> mumble: Fix extract_dir
