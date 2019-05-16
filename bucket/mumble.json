@@ -1,26 +1,3 @@
-<<<<<<< HEAD
-{
-    "homepage": "https://www.mumble.com/",
-    "description": "Mumble is an open source voice communication application that features a customizable in game overlay, application skins, conversation recording, and advanced voice activity detection.",
-    "version": "1.2.19",
-    "url": "http://download.mumble.com/en/mumble-1.2.19.zip",
-    "hash": "8eadbbae4ead86cdd85c638cbce03f57ba6f2ed8fa9650ec9d60e502d24387e5",
-    "extract_dir": "Mumble",
-    "shortcuts": [
-        [
-            "mumble.exe",
-            "Mumble"
-        ]
-    ],
-    "checkver": {
-        "url": "https://www.mumble.com/support/mumble-install-problems-on-windows.php",
-        "regex": "http://download.mumble.com/en/mumble-([\\d\\.]+).zip"
-    },
-    "autoupdate": {
-        "url": "http://download.mumble.com/en/mumble-$version.zip"
-    }
-}
-=======
 {
     "homepage": "https://www.mumble.com/",
     "description": "Mumble is an open source voice communication application that features a customizable in game overlay, application skins, conversation recording, and advanced voice activity detection.",
@@ -42,4 +19,3 @@
         "url": "https://github.com/mumble-voip/mumble/releases/download/$version/mumble-$version.winx64.msi"
     }
 }
->>>>>>> mumble: Fix extract_dir
