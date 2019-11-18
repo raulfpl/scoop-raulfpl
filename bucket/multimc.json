@@ -11,6 +11,21 @@
             "MultiMC"
         ]
     ],
+    "bin": [
+        [
+            "MultiMC.exe"
+        ]
+    ],
+    "persist": [
+        "accounts",
+        "assets",
+        "cache",
+        "icons",
+        "instances",
+        "libraries",
+        "meta",
+        "mods"
+    ],
     "checkver": {
         "url": "https://github.com/MultiMC/MultiMC5/releases",
         "regex": "\"/MultiMC/MultiMC5/tree/([\\w\\.-]+)\""
