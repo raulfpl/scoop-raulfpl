@@ -23,6 +23,7 @@
         "libraries",
         "meta",
         "mods",
+		"accounts.json",
         "multimc.cfg"
     ],
     "checkver": {
