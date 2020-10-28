@@ -1,0 +1,20 @@
+{
+    "homepage": "https://electronjs.org/fiddle",
+    "description": "The easiest way to get started with Electron",
+    "version": "0.6.0",
+    "url": "https://github.com/electron/fiddle/releases/download/v0.6.0/electron-fiddle-0.6.0-full.nupkg",
+    "hash": "536c37ef04becda6e7e3901e5b49f3dc1218cf571d516eed27c299fd7383c398",
+    "extract_dir": "lib\\net45",
+    "shortcuts": [
+        [
+            "electron-fiddle.exe",
+            "Electron Fiddle"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/electron/fiddle"
+    },
+    "autoupdate": {
+        "url": "https://github.com/electron/fiddle/releases/download/v$version/electron-fiddle-$version-full.nupkg"
+    }
+}
