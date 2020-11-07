@@ -1,17 +1,22 @@
 {
     "homepage": "https://evemondevteam.github.io/evemon/",
     "description": "A lightweight, easy-to-use standalone Windows application designed to assist you in keeping track of your EVE Online character progression. ",
-    "version": "4.0.18",
-    "url": "https://github.com/peterhaneve/evemon/releases/download/4.0.18/EVEMon-binaries-4.0.18.zip",
-    "hash": "1177f9349fdf689f8eae83a77c55c39130de2b16c9d9b6e50de0bc4d9e4da652",
+    "version": "4.0.19",
+    "url": "https://github.com/peterhaneve/evemon/releases/download/4.0.19/EVEMon-binaries-4.0.19.zip",
+    "hash": "03ebc1f78fd524a20d723c5ef7b774a418014a48390e4882585c0389491de458",
     "extract_dir": "EVEMon",
-    "shortcuts": [["EVEMon.exe", "EVEMon"]],
+    "shortcuts": [
+        [
+            "EVEMon.exe",
+            "EVEMon"
+        ]
+    ],
     "checkver": {
         "github": "https://github.com/peterhaneve/evemon"
     },
     "autoupdate": {
         "url": "https://github.com/peterhaneve/evemon/releases/download/$version/EVEMon-binaries-$version.zip"
     },
-    "pre_install": ["echo $null >> $dir/settings.xml"],
-    "persist": ["settings.xml"]
+    "pre_install": "echo $null >> $dir/settings.xml",
+    "persist": "settings.xml"
 }
