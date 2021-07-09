@@ -1,9 +1,9 @@
 {
     "homepage": "https://electronjs.org/fiddle",
     "description": "The easiest way to get started with Electron",
-    "version": "0.25.1",
-    "url": "https://github.com/electron/fiddle/releases/download/v0.25.1/electron-fiddle-0.25.1-full.nupkg",
-    "hash": "9faf7c935d83be73608d76bdbd7690e33d165767312f6ce1b380f76803f26ea8",
+    "version": "0.25.2",
+    "url": "https://github.com/electron/fiddle/releases/download/v0.25.2/electron-fiddle-0.25.2-full.nupkg",
+    "hash": "4eea3eb8b3ae3f60a8f2069e9ad5f9057f3f033dcd0786e8fe5239e428c9616b",
     "extract_dir": "lib\\net45",
     "shortcuts": [
         [
